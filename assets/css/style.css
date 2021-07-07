@@ -74,10 +74,10 @@ body {
     background-size: cover;
     background-position: top;
     height: 850px;
-    margin-bottom: 153px;
+    margin-bottom: 110px;
 }
 
-.top-banner {
+.header-top {
     font-size: 12px;
     line-height: 14px;
     text-align: center;
@@ -123,6 +123,14 @@ body {
 
 .logo__img {
     max-width: 172px;
+}
+
+.banner {
+    position: absolute;
+    top: 220px;
+    right: 0;
+    left: 0;
+    margin: auto;
 }
 
 .banner__menu {
@@ -294,7 +302,8 @@ body {
 }
 
 .info-work__sup-title {
-    margin: 45px 0 18px;
+    padding-top: 92px;
+    margin-bottom: 18px;
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 2px;
@@ -306,13 +315,15 @@ body {
 }
 
 .info-work__items {
-    margin-bottom: 65px;
+    padding-bottom: 65px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
 }
 
 .info-work__item {
-    flex-basis: 33.33%;
-    max-width: 33.33%;
-    margin: 0 30px;
+    max-width: 295px;
+    padding: 0 40px;
     text-align: center;
 }
 
@@ -474,13 +485,17 @@ body {
     border-radius: 3px;
 }
 
+.novelty {
+    padding-top: 73px;
+}
+
 .novelty__title {
     font-weight: bold;
     font-size: 45px;
     line-height: 45px;
     text-align: center;
     color: #343434;
-    padding: 73px 0 34px;
+    padding-bottom: 34px;
 }
 
 .novelty__items:nth-child(odd) {
@@ -546,7 +561,7 @@ body {
 
 .celebrating {
     background-color: #F7F5F2;
-    padding: 155px 40px;
+    padding: 155px 0;
 }
 
 .celebrating__slider {
@@ -616,14 +631,15 @@ body {
 
 .goods {
     background-color: #F7F5F2;
+    padding: 83px 0 90px;
 }
 
 .goods__title {
-    padding: 83px 0 107px;
+    margin-bottom: 107px;
 }
 
 .goods__content {
-    padding:0 16px 90px;
+    padding:0 16px 0;
     flex-wrap: wrap;
 }
 
@@ -639,6 +655,10 @@ body {
 
 .goods__img:hover {
     transform: scale(1.1);
+}
+
+.goods__link {
+    display: block;
 }
 
 .connection__title {
